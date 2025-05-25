@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+  </head>
+  <body>
+    <!-- Back to Homepage Link -->
+    <header>
+      <a href="./index.html" aria-label="Back to the page">&larr; Back link</a>
+    </header>
+
+    <!-- Form for Reservation -->
+    <main>
+      <center>
+        <h1>Contact Us/Make a Reservation</h1>
+        <form action="">
+          <!-- Name -->
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+          <br /><br />
+
+          <!-- Email -->
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+          <br /><br />
+
+          <!-- Phone -->
+          <label for="phone">Phone:</label>
+          <input type="tel" name="phone" id="phone" required />
+          <br /><br />
+
+          <!-- Date -->
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="date" required />
+          <br /><br />
+
+          <!-- Time -->
+          <label for="time">Time:</label>
+          <input type="time" name="time" id="time" required />
+          <br /><br />
+
+          <!-- Number of People -->
+          <label for="num-ppl">Number of People:</label>
+          <input type="number" name="num-ppl" id="num-ppl" min="1" required />
+          <br /><br />
+
+          <!-- Seat Preference -->
+          <label>Seating Preference:</label>
+          <input type="radio" name="seat" id="indoor" value="Indoor" />
+          <label for="indoor">Indoor</label>
+          <input type="radio" name="seat" id="outdoor" value="Outdoor" />
+          <label for="outdoor">Outdoor</label>
+          <br /><br />
+
+          <!-- Special Requests -->
+          <label>Special Requests:</label>
+          <input
+            type="checkbox"
+            name="option-1"
+            id="option-1"
+            value="VegetarianOptions"
+          />
+          <label for="option-1">Vegetarian Options</label>
+          <input
+            type="checkbox"
+            name="option-2"
+            id="option-2"
+            value="AllergyFriendly"
+          />
+          <label for="option-2">Allergy Friendly</label>
+          <input
+            type="checkbox"
+            name="option-3"
+            id="option-3"
+            value="WindowSeat"
+          />
+          <label for="option-3">Window Seat</label>
+          <input
+            type="checkbox"
+            name="option-4"
+            id="option-4"
+            value="NeedAHighchair"
+          />
+          <label for="option-4">Need a Highchair</label>
+          <input
+            type="checkbox"
+            name="option-5"
+            id="option-5"
+            value="SpecialOccasion"
+          />
+          <label for="option-5">Celebrating a Special Occasion</label>
+          <br /><br />
+
+          <!-- Additional Notes -->
+          <label for="notes">Additional Notes:</label>
+          <br />
+          <textarea name="notes" id="notes"></textarea>
+          <br /><br />
+
+          <button type="submit" aria-label="Submit reservation">
+            Submit Reservation
+          </button>
+        </form>
+      </center>
+    </main>
+    <br /><br />
+
+    <!-- Footer Section -->
+    <footer>
+      <center>
+        <p>Follow us on <a href="https://www.instagram.com/">instagram</a>!</p>
+        <p>&#169; 2024 The Urban Garden Restaurant. All rights reserved.</p>
+      </center>
+    </footer>
+  </body>
+</html>
